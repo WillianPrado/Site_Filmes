@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+h1 {
+	font-family: 'Roboto Condensed', Helvetica, Arial;
+}
+
+h1 small {
+	display: block;
+	font-size: 0.35em;
+}
+
+/* Header */
+.site-header {
+	background-color: #FCFCFC;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.site-header h1 {
+	font-family: 'Roboto Condensed', Helvetica, Arial;
+	color: #FF8D1B;
+	margin: 0;
+}
+
+/* Navbar/Menu */
+.navbar {
+	background-color: #FF8D1B !important;
+	padding: 0 1rem;
+	margin: 0;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+	font-family: 'Roboto Condensed', Helvetica, Arial;
+	color: #FFF;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	margin: 0;
+}
+.navbar-light .navbar-nav a.nav-link:hover {
+	background-color: #212121;
+	color: #FFF;
+}
+
+
+
+/* Main/Principal */
+.site-main {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+
+
+/* Footer/Rodapé */
+.site-footer {
+	background-color: #212121;
+	color: #F5F5F5;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+/*Gerais*/
+ul.filme-tags li {
+	margin: 0.3em;
+}
+
+/* Filmes */
+.poster img {
+	max-width: 100%;
+}
+
+.filme-avaliacao {
+	margin-bottom: 1em;
+}
+
+.filme-nota {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.filme-stars{
+	color: #ffcc00;
+	font-size: 1.3em;
+}
